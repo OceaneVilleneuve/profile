@@ -1,0 +1,113 @@
+body {
+  background-color: #242423;
+  text-align: center;
+}
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding: 10px;
+  margin: 0px 20px 40px 20px;
+}
+
+.responsive {
+    max-width: 100%;
+}
+
+.image_wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 50px;
+  top: 0;
+}
+.container {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+#profil_information {
+  text-align:center;
+}
+
+.name_and_info p {
+  color: #a1cca5;
+  text-shadow: rgb(141, 152, 149) 1px 0 2px;
+  text-align: center;
+}
+.card {
+  background-color: #242423;
+  padding-top: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(232, 226, 226, 0.08) 0px 4px 12px;
+}
+
+h1 {
+  color: #248277;
+  text-shadow: rgb(214, 222, 220) 1px 0 4px;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 35px;
+}
+
+h2 {
+  color: #56ab91;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 16px;
+  line-height:normal;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: rgb(141, 152, 149) 1px 0 2px;
+}
+
+h3{
+  color: aliceblue;
+  font-size: 60px;
+  font-family: 'Gloock', serif;
+}
+
+p {
+  color: #f8edeb;
+  font-family: 'Shippori Mincho', serif;
+  text-align: center;
+
+}
+
+.profil_picture img{
+  width: 219px;
+  height: 219px;
+  border-radius: 150px;
+  object-fit: cover;
+  box-shadow: 6px 6px 4px rgba(255, 252, 252, 0.1);
+}
+
+i {
+  color: grey;
+  font-size: 48px;
+}
+
+i:hover{
+  color: #283618;
+  transition: color 0.5s;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  direction:right;
+}
+
+@media (max-width: 720px) {
+  .responsive{
+    width: 100%
+  }
+}
+
+@media (max-width: 720px) {
+  .box{
+    width: 90%
+  }
+}
